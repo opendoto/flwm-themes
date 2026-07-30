@@ -16,6 +16,7 @@ The goal is simple: better colors, better contrast, and a cleaner desktop while 
 
 * 🌿 **Catppuccin Mocha** — Soft pastel colors.
 * 🦇 **Dracula** — Dark purple with bright accents.
+* 🌲 **Everforest Dark** — Soft green forest colors with a calm, natural look.
 * 🪵 **Gruvbox Dark** — Warm retro colors.
 * 💚 **Matrix** — Green-on-black colors inspired by the classic hacker terminal look.
 * ❄️ **Nord Dark** — Cool blue and gray tones.
@@ -25,6 +26,7 @@ The goal is simple: better colors, better contrast, and a cleaner desktop while 
 ### Light
 
 * 🖥️ **CDE** — Classic UNIX look.
+* 🌳 **Everforest Light** — Soft natural colors with warm green accents.
 * 🌾 **Gruvbox Light** — Warm paper-like colors.
 * 🍦 **Maycream** — Soft cream colors for reading.
 * 🟠 **Old Ubuntu** — Inspired by the old Ubuntu Human theme.
@@ -93,6 +95,7 @@ flwm-themes/
 ├── dark/
 │   ├── catppuccin-mocha
 │   ├── dracula
+│   ├── everforest-dark
 │   ├── gruvbox-dark
 │   ├── matrix
 │   ├── nord-dark
@@ -100,6 +103,7 @@ flwm-themes/
 │   └── tokyo-night
 └── light/
     ├── cde
+    ├── everforest-light
     ├── gruvbox-light
     ├── maycream
     ├── oldubuntu

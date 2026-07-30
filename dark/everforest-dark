@@ -1,0 +1,85 @@
+! -----------------------------------------------------------------------------
+!                               Everforest Dark
+! -----------------------------------------------------------------------------
+
+! --- ATERM CONFIG ---
+! Controls the terminal scrollbar visibility (set to true to show)
+Aterm*scrollBar:        false
+
+! Transparency settings (set 'transparent' to true to enable window opacity)
+Aterm*transparent:      false
+Aterm*shading:          80
+
+! Basic terminal window settings like default title, font style, and history buffer
+Aterm*title:            Terminal
+Aterm*font:             fixed
+Aterm*saveLines:        2000
+
+! Main text and background colors for the terminal window canvas
+Aterm*background:       #272e33
+Aterm*foreground:       #d3c6aa
+Aterm*cursorColor:      #e69875
+
+! Standard ANSI colors (0-7) used for base text highlighting in CLI apps
+Aterm*color0:           #2e383c
+Aterm*color1:           #e67e80
+Aterm*color2:           #a7c080
+Aterm*color3:           #dbbc7f
+Aterm*color4:           #7fbbb3
+Aterm*color5:           #d699b6
+Aterm*color6:           #83c092
+Aterm*color7:           #d3c6aa
+
+! Bright ANSI colors (8-15) used for bold or high-intensity terminal outputs
+Aterm*color8:           #859289
+Aterm*color9:           #e67e80
+Aterm*color10:          #a7c080
+Aterm*color11:          #dbbc7f
+Aterm*color12:          #7fbbb3
+Aterm*color13:          #d699b6
+Aterm*color14:          #83c092
+Aterm*color15:          #9da9a0
+
+! --- FLTK APPS & SYSTEM UTILITIES ---
+! Widget look and feel engine and scaling settings
+fltk*scheme:            plastic
+*scheme:                plastic
+Xft.dpi:                96.0
+
+! Global background, text, and label colors across FLTK window surfaces
+*background:            #272e33
+*foreground:            #d3c6aa
+*labelcolor:            #d3c6aa
+
+! FLTK canvas background for text editors, browsers, and input fields
+*background2:           #2e383c
+*bg2:                   #2e383c
+
+! Accent color for selections, marked text, and active controls
+*selectColor:           #a7c080
+*selection_color:       #a7c080
+
+! Universal component overrides (prevents white-outs on Apps, Editor, Help, etc.)
+*input*background:      #2e383c
+*input*foreground:      #d3c6aa
+*output*background:     #2e383c
+*output*foreground:     #d3c6aa
+*text*background:       #2e383c
+*text*foreground:       #d3c6aa
+*browser*background:    #2e383c
+*browser*foreground:    #d3c6aa
+*help*background:       #2e383c
+*help*foreground:       #d3c6aa
+*Help_View*background:  #2e383c
+*Help_View*foreground:  #d3c6aa
+*file_chooser*background: #272e33
+*file_chooser*foreground: #d3c6aa
+*File_Chooser*background: #272e33
+*File_Chooser*foreground: #d3c6aa
+
+! --- FLWM ---
+! Window manager frames, borders, and titlebar color tones
+flwm*background:        #2e383c
+flwm*foreground:        #859289
+flwm*activeBackground:  #a7c080
+flwm*activeForeground:  #272e33
