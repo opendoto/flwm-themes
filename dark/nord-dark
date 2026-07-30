@@ -1,0 +1,85 @@
+! -----------------------------------------------------------------------------
+!                                 Nord Dark
+! -----------------------------------------------------------------------------
+
+! --- ATERM CONFIG ---
+! Controls the terminal scrollbar visibility (set to true to show)
+Aterm*scrollBar:        false
+
+! Transparency settings (set 'transparent' to true to enable window opacity)
+Aterm*transparent:      false
+Aterm*shading:          80
+
+! Basic terminal window settings like default title, font style, and history buffer
+Aterm*title:            Terminal
+Aterm*font:             fixed
+Aterm*saveLines:        2000
+
+! Main text and background colors for the terminal window canvas
+Aterm*background:       #2e3440
+Aterm*foreground:       #d8dee9
+Aterm*cursorColor:      #88c0d0
+
+! Standard ANSI colors (0-7) used for base text highlighting in CLI apps
+Aterm*color0:           #3b4252
+Aterm*color1:           #bf616a
+Aterm*color2:           #a3be8c
+Aterm*color3:           #ebcb8b
+Aterm*color4:           #81a1c1
+Aterm*color5:           #b48ead
+Aterm*color6:           #88c0d0
+Aterm*color7:           #e5e9f0
+
+! Bright ANSI colors (8-15) used for bold or high-intensity terminal outputs
+Aterm*color8:           #4c566a
+Aterm*color9:           #bf616a
+Aterm*color10:          #a3be8c
+Aterm*color11:          #ebcb8b
+Aterm*color12:          #81a1c1
+Aterm*color13:          #b48ead
+Aterm*color14:          #8fbcbb
+Aterm*color15:          #eceff4
+
+! --- FLTK APPS & SYSTEM UTILITIES ---
+! Universal wildcards (*) applied to Apps, Editor, ControlPanel, etc.
+fltk*scheme:            plastic
+*scheme:                plastic
+Xft.dpi:                96.0
+
+! General window background and label text color
+*background:            #3b4252
+*foreground:            #e5e9f0
+*labelcolor:            #e5e9f0
+
+! Global dark background for list canvases, text boxes, and input fields (nord0)
+*background2:           #2e3440
+*bg2:                   #2e3440
+
+! Selection accent color using Frost Blue (nord9)
+*selectColor:           #88c0d0
+*selection_color:       #88c0d0
+
+! Specific overrides for package lists, HTML help, input fields, and info views
+*input*background:      #2e3440
+*input*foreground:      #eceff4
+*output*background:     #2e3440
+*output*foreground:     #eceff4
+*text*background:       #2e3440
+*text*foreground:       #eceff4
+*browser*background:    #2e3440
+*browser*foreground:    #eceff4
+*help*background:       #2e3440
+*help*foreground:       #eceff4
+*Help_View*background:  #2e3440
+*Help_View*foreground:  #eceff4
+*file_chooser*background: #3b4252
+*file_chooser*foreground: #e5e9f0
+*File_Chooser*background: #3b4252
+*File_Chooser*foreground: #e5e9f0
+
+! --- FLWM ---
+! Window manager frames and titlebar color tones
+flwm*background:        #3b4252
+flwm*foreground:        #d8dee9
+flwm*activeBackground:  #434c5e
+flwm*activeForeground:  #eceff4
