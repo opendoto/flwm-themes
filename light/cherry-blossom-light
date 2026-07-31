@@ -1,0 +1,104 @@
+! -----------------------------------------------------------------------------
+!                             Cherry Blossom Light 
+! -----------------------------------------------------------------------------
+
+! --- ATERM CONFIG ---
+! Controls the terminal scrollbar visibility (set to true to show)
+Aterm*scrollBar:        false
+
+! Transparency settings (set 'transparent' to true to enable window opacity)
+Aterm*transparent:      false
+Aterm*shading:          80
+
+! Basic terminal window settings like default title, font style, and history buffer
+Aterm*title:            Terminal
+Aterm*font:             fixed
+Aterm*saveLines:        2000
+
+! Main text and background colors for the terminal window canvas
+Aterm*background:       #fff0f6
+Aterm*foreground:       #3d1c2a
+Aterm*cursorColor:      #c92a6d
+
+! Standard ANSI colors (0-7) - Re-mapped to Dusty Rose, Berry & Plum (Zero Green/Cyan)
+Aterm*color0:           #3d1c2a
+Aterm*color1:           #c92a6d
+Aterm*color2:           #7a3b53
+Aterm*color3:           #b85d75
+Aterm*color4:           #8c3b68
+Aterm*color5:           #a82358
+Aterm*color6:           #b8235a
+Aterm*color7:           #9e7b8c
+
+! Bright ANSI colors (8-15) - High-contrast Berry & Vivid Magenta Highlights
+Aterm*color8:           #5c3143
+Aterm*color9:           #e03871
+Aterm*color10:          #9e4f6e
+Aterm*color11:          #d8738c
+Aterm*color12:          #b04e84
+Aterm*color13:          #f0438a
+Aterm*color14:          #e0387b
+Aterm*color15:          #3d1c2a
+
+! --- FLTK APPS & SYSTEM UTILITIES ---
+! Widget look and feel engine and scaling settings
+fltk*scheme:            plastic
+*scheme:                plastic
+Xft.dpi:                96.0
+
+! Global background, text, and label colors across FLTK window surfaces
+*background:            #d8b4c2
+*foreground:            #3d1c2a
+*labelcolor:            #3d1c2a
+
+! FLTK canvas background for text editors, browsers, and input fields
+*background2:           #fff0f6
+*bg2:                   #fff0f6
+
+! Accent color for selections, marked text, and active controls
+*selectColor:           #c92a6d
+*selection_color:       #c92a6d
+
+! Universal component overrides (prevents white-outs on Apps, Editor, Help, etc.)
+*input*background:      #fff0f6
+*input*foreground:      #3d1c2a
+*Input*background:      #fff0f6
+*Input*foreground:      #3d1c2a
+*output*background:     #fff0f6
+*output*foreground:     #3d1c2a
+*Output*background:     #fff0f6
+*Output*foreground:     #3d1c2a
+*text*background:       #fff0f6
+*text*foreground:       #3d1c2a
+*Text*background:       #fff0f6
+*Text*foreground:       #3d1c2a
+*browser*background:    #fff0f6
+*browser*foreground:    #3d1c2a
+*Browser*background:    #fff0f6
+*Browser*foreground:    #3d1c2a
+*Hold_Browser*background: #fff0f6
+*Hold_Browser*foreground: #3d1c2a
+*Select_Browser*background: #fff0f6
+*Select_Browser*foreground: #3d1c2a
+*help*background:       #fff0f6
+*help*foreground:       #3d1c2a
+*Help_View*background:  #fff0f6
+*Help_View*foreground:  #3d1c2a
+*file_chooser*background: #d8b4c2
+*file_chooser*foreground: #3d1c2a
+*File_Chooser*background: #d8b4c2
+*File_Chooser*foreground: #3d1c2a
+*scrollbar*background:  #d8b4c2
+*scrollbar*foreground:  #3d1c2a
+*Scrollbar*background:  #d8b4c2
+*Scrollbar*foreground:  #3d1c2a
+*Scrollbar*color:       #d8b4c2
+*Button*background:     #d8b4c2
+*Button*foreground:     #3d1c2a
+
+! --- FLWM ---
+! Window manager frames, borders, and titlebar color tones
+flwm*background:        #d2b0c0
+flwm*foreground:        #5c3749
+flwm*activeBackground:  #c92a6d
+flwm*activeForeground:  #ffffff

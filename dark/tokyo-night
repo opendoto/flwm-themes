@@ -1,6 +1,7 @@
 ! -----------------------------------------------------------------------------
-!                               Tokyo Night
+!                                 Tokyo Night
 ! -----------------------------------------------------------------------------
+! Note: Run 'filetool.sh -b' after editing to persist changes across reboots.
 
 ! --- ATERM CONFIG ---
 ! Controls the terminal scrollbar visibility (set to true to show)
@@ -19,6 +20,7 @@ Aterm*saveLines:        2000
 Aterm*background:       #1a1b26
 Aterm*foreground:       #c0caf5
 Aterm*cursorColor:      #c0caf5
+Aterm*pointerColor:     #c0caf5
 
 ! Standard ANSI colors (0-7) used for base text highlighting in CLI apps
 Aterm*color0:           #15161e

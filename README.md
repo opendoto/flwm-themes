@@ -15,10 +15,12 @@ The goal is simple: better colors, better contrast, and a cleaner desktop while 
 ### Dark
 
 * 🌿 **Catppuccin Mocha** — Soft pastel colors.
+* 🌸 **Cherry Blossom Dark** — Soft pink accents on a dark background.
 * 🦇 **Dracula** — Dark purple with bright accents.
 * 🌲 **Everforest Dark** — Soft green forest colors with a calm, natural look.
 * 🪵 **Gruvbox Dark** — Warm retro colors.
 * 💚 **Matrix** — Green-on-black colors inspired by the classic hacker terminal look.
+* ⚫ **Monochrome** — Black, white, and gray for a clean minimalist desktop.
 * ❄️ **Nord Dark** — Cool blue and gray tones.
 * 🌹 **Rosé Pine Moon** — Soft dark colors with warm accents.
 * 🌃 **Tokyo Night** — Bright blues inspired by city lights.
@@ -26,11 +28,13 @@ The goal is simple: better colors, better contrast, and a cleaner desktop while 
 ### Light
 
 * 🖥️ **CDE** — Classic UNIX look.
-* 🌳 **Everforest Light** — Soft natural colors with warm green accents.
+* 🌸 **Cherry Blossom Light** — Soft pink and cream colors.
+* 🌿 **Everforest Light** — Soft natural colors with warm green accents.
 * 🌾 **Gruvbox Light** — Warm paper-like colors.
 * 🍦 **Maycream** — Soft cream colors for reading.
 * 🟠 **Old Ubuntu** — Inspired by the old Ubuntu Human theme.
 * 🌅 **Rosé Pine Dawn** — Light pastel colors.
+* 🌤️ **Skyline** — Bright blue sky colors with a clean light look.
 
 ## Features
 
@@ -94,20 +98,24 @@ The new theme will be used by:
 flwm-themes/
 ├── dark/
 │   ├── catppuccin-mocha
+│   ├── cherry-blossom-dark
 │   ├── dracula
 │   ├── everforest-dark
 │   ├── gruvbox-dark
 │   ├── matrix
+│   ├── monochrome
 │   ├── nord-dark
 │   ├── rose-pine-moon
 │   └── tokyo-night
 └── light/
     ├── cde
+    ├── cherry-blossom-light
     ├── everforest-light
     ├── gruvbox-light
     ├── maycream
     ├── oldubuntu
-    └── rose-pine-dawn
+    ├── rose-pine-dawn
+    └── skyline
 ```
 
 ## Keep in Mind
