@@ -1,5 +1,5 @@
 ! -----------------------------------------------------------------------------
-!                                Gruvbox Dark
+!                                  Gruvbox Dark
 ! -----------------------------------------------------------------------------
 
 ! --- ATERM CONFIG ---
@@ -17,7 +17,7 @@ Aterm*saveLines:        2000
 
 ! Main text and background colors for the terminal window canvas
 Aterm*background:       #282828
-Aterm*foreground:       #ebdbb2
+Aterm*foreground:       #fbf1c7
 Aterm*cursorColor:      #fe8019
 
 ! Standard ANSI colors (0-7) used for base text highlighting in CLI apps
@@ -48,38 +48,57 @@ Xft.dpi:                96.0
 
 ! Global background, text, and label colors across FLTK window surfaces
 *background:            #282828
-*foreground:            #b8bb26
-*labelcolor:            #b8bb26
+*foreground:            #fbf1c7
+*labelcolor:            #fbf1c7
 
-! FLTK canvas background for text editors, browsers, and input fields
-*background2:           #3c3836
-*bg2:                   #3c3836
+! FLTK canvas background for text editors, browsers, and input fields (gruvbox bg0_h)
+*background2:           #1d2021
+*bg2:                   #1d2021
 
-! Accent color for selections, marked text, and active controls
-*selectColor:           #fabd2f
-*selection_color:       #fabd2f
+! Accent color for selections, marked text, and active controls (gruvbox orange)
+*selectColor:           #fe8019
+*selection_color:       #fe8019
 
-! Universal component overrides (prevents white-outs on Apps, Editor, Help, etc.)
-*input*background:      #3c3836
-*input*foreground:      #b8bb26
-*output*background:     #3c3836
-*output*foreground:     #b8bb26
-*text*background:       #3c3836
-*text*foreground:       #b8bb26
-*browser*background:    #3c3836
-*browser*foreground:    #b8bb26
-*help*background:       #3c3836
-*help*foreground:       #b8bb26
-*Help_View*background:  #3c3836
-*Help_View*foreground:  #b8bb26
+! Universal component overrides (Dual TitleCase declarations for strict FLTK class parser)
+*input*background:      #1d2021
+*input*foreground:      #fbf1c7
+*Input*background:      #1d2021
+*Input*foreground:      #fbf1c7
+*output*background:     #1d2021
+*output*foreground:     #fbf1c7
+*Output*background:     #1d2021
+*Output*foreground:     #fbf1c7
+*text*background:       #1d2021
+*text*foreground:       #fbf1c7
+*Text*background:       #1d2021
+*Text*foreground:       #fbf1c7
+*browser*background:    #1d2021
+*browser*foreground:    #fbf1c7
+*Browser*background:    #1d2021
+*Browser*foreground:    #fbf1c7
+*Hold_Browser*background: #1d2021
+*Hold_Browser*foreground: #fbf1c7
+*Select_Browser*background: #1d2021
+*Select_Browser*foreground: #fbf1c7
+*help*background:       #1d2021
+*help*foreground:       #fbf1c7
+*Help_View*background:  #1d2021
+*Help_View*foreground:  #fbf1c7
 *file_chooser*background: #282828
-*file_chooser*foreground: #b8bb26
+*file_chooser*foreground: #fbf1c7
 *File_Chooser*background: #282828
-*File_Chooser*foreground: #b8bb26
+*File_Chooser*foreground: #fbf1c7
+*scrollbar*background:  #282828
+*scrollbar*foreground:  #fbf1c7
+*Scrollbar*background:  #282828
+*Scrollbar*foreground:  #fbf1c7
+*Scrollbar*color:       #3c3836
+*Button*background:     #3c3836
+*Button*foreground:     #fbf1c7
 
 ! --- FLWM ---
 ! Window manager frames, borders, and titlebar color tones
 flwm*background:        #3c3836
-flwm*foreground:        #bdae93
+flwm*foreground:        #d5c4a1
 flwm*activeBackground:  #fabd2f
-flwm*activeForeground:  #282828
+flwm*activeForeground:  #1d2021

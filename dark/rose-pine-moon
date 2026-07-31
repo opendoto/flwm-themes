@@ -20,7 +20,7 @@ Aterm*background:       #232136
 Aterm*foreground:       #e0def4
 Aterm*cursorColor:      #ea9a97
 
-! Standard ANSI colors (0-7) used for base text highlighting in CLI apps
+! Standard ANSI colors (0-7) mapped strictly to Rosé Pine Moon palette
 Aterm*color0:           #393552
 Aterm*color1:           #eb6f92
 Aterm*color2:           #3e8fb0
@@ -30,7 +30,7 @@ Aterm*color5:           #c4a7e7
 Aterm*color6:           #ea9a97
 Aterm*color7:           #e0def4
 
-! Bright ANSI colors (8-15) used for bold or high-intensity terminal outputs
+! Bright ANSI colors (8-15) featuring Rose Pine Moon accent highlights
 Aterm*color8:           #6e6a86
 Aterm*color9:           #eb6f92
 Aterm*color10:          #3e8fb0
@@ -59,15 +59,27 @@ Xft.dpi:                96.0
 *selectColor:           #c4a7e7
 *selection_color:       #c4a7e7
 
-! Universal component overrides (prevents white-outs on Apps, Editor, Help, etc.)
+! Universal component overrides (Dual TitleCase declarations for strict FLTK class parser)
 *input*background:      #232136
 *input*foreground:      #e0def4
+*Input*background:      #232136
+*Input*foreground:      #e0def4
 *output*background:     #232136
 *output*foreground:     #e0def4
+*Output*background:     #232136
+*Output*foreground:     #e0def4
 *text*background:       #232136
 *text*foreground:       #e0def4
+*Text*background:       #232136
+*Text*foreground:       #e0def4
 *browser*background:    #232136
 *browser*foreground:    #e0def4
+*Browser*background:    #232136
+*Browser*foreground:    #e0def4
+*Hold_Browser*background: #232136
+*Hold_Browser*foreground: #e0def4
+*Select_Browser*background: #232136
+*Select_Browser*foreground: #e0def4
 *help*background:       #232136
 *help*foreground:       #e0def4
 *Help_View*background:  #232136
@@ -76,6 +88,13 @@ Xft.dpi:                96.0
 *file_chooser*foreground: #e0def4
 *File_Chooser*background: #2a273f
 *File_Chooser*foreground: #e0def4
+*scrollbar*background:  #2a273f
+*scrollbar*foreground:  #e0def4
+*Scrollbar*background:  #2a273f
+*Scrollbar*foreground:  #e0def4
+*Scrollbar*color:       #393552
+*Button*background:     #393552
+*Button*foreground:     #e0def4
 
 ! --- FLWM ---
 ! Window manager frames, borders, and titlebar color tones

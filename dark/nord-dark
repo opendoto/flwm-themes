@@ -1,6 +1,7 @@
 ! -----------------------------------------------------------------------------
-!                                 Nord Dark
+!                                   Nord Dark
 ! -----------------------------------------------------------------------------
+! Note: Run 'filetool.sh -b' after editing to persist changes across reboots.
 
 ! --- ATERM CONFIG ---
 ! Controls the terminal scrollbar visibility (set to true to show)
@@ -19,6 +20,7 @@ Aterm*saveLines:        2000
 Aterm*background:       #2e3440
 Aterm*foreground:       #d8dee9
 Aterm*cursorColor:      #88c0d0
+Aterm*pointerColor:     #88c0d0
 
 ! Standard ANSI colors (0-7) used for base text highlighting in CLI apps
 Aterm*color0:           #3b4252
@@ -41,45 +43,87 @@ Aterm*color14:          #8fbcbb
 Aterm*color15:          #eceff4
 
 ! --- FLTK APPS & SYSTEM UTILITIES ---
-! Universal wildcards (*) applied to Apps, Editor, ControlPanel, etc.
+! Widget look and feel engine and scaling settings
 fltk*scheme:            plastic
 *scheme:                plastic
 Xft.dpi:                96.0
+Xft.antialias:          1
+Xft.hinting:            1
+*font:                  helvetica-12
 
-! General window background and label text color
+! Global background, text, and label colors across FLTK window surfaces
 *background:            #3b4252
 *foreground:            #e5e9f0
 *labelcolor:            #e5e9f0
 
-! Global dark background for list canvases, text boxes, and input fields (nord0)
+! FLTK canvas background for text editors, browsers, and input fields
 *background2:           #2e3440
 *bg2:                   #2e3440
 
-! Selection accent color using Frost Blue (nord9)
-*selectColor:           #88c0d0
-*selection_color:       #88c0d0
+! Accent color for selections, marked text, and active controls
+*selectColor:           #5e81ac
+*selection_color:       #5e81ac
 
-! Specific overrides for package lists, HTML help, input fields, and info views
+! Universal component overrides (prevents white-outs on Apps, Editor, Help, etc.)
 *input*background:      #2e3440
 *input*foreground:      #eceff4
+*input*font:            courier-12
+*Input*background:      #2e3440
+*Input*foreground:      #eceff4
+*Input*font:            courier-12
 *output*background:     #2e3440
 *output*foreground:     #eceff4
+*output*font:           courier-12
+*Output*background:     #2e3440
+*Output*foreground:     #eceff4
+*Output*font:           courier-12
 *text*background:       #2e3440
 *text*foreground:       #eceff4
+*text*font:             courier-12
+*Text*background:       #2e3440
+*Text*foreground:       #eceff4
+*Text*font:             courier-12
+*Text_Display*background: #2e3440
+*Text_Display*foreground: #eceff4
+*Text_Display*labelcolor: #e5e9f0
+*Text_Display*font:     courier-12
+*Text_Editor*background:  #2e3440
+*Text_Editor*foreground:  #eceff4
+*Text_Editor*font:      courier-12
 *browser*background:    #2e3440
 *browser*foreground:    #eceff4
+*browser*font:          helvetica-12
+*Browser*background:    #2e3440
+*Browser*foreground:    #eceff4
+*Browser*font:          helvetica-12
+*Hold_Browser*background: #2e3440
+*Hold_Browser*foreground: #eceff4
+*Hold_Browser*font:     helvetica-12
+*Select_Browser*background: #2e3440
+*Select_Browser*foreground: #eceff4
+*Select_Browser*font:   helvetica-12
 *help*background:       #2e3440
 *help*foreground:       #eceff4
 *Help_View*background:  #2e3440
 *Help_View*foreground:  #eceff4
+*Help_View*labelcolor:  #e5e9f0
 *file_chooser*background: #3b4252
 *file_chooser*foreground: #e5e9f0
 *File_Chooser*background: #3b4252
 *File_Chooser*foreground: #e5e9f0
+*scrollbar*background:  #3b4252
+*scrollbar*foreground:  #e5e9f0
+*Scrollbar*background:  #3b4252
+*Scrollbar*foreground:  #e5e9f0
+*Scrollbar*color:       #434c5e
+*Button*background:     #434c5e
+*Button*foreground:     #eceff4
+*Button*labelcolor:     #eceff4
+*Button*font:           helvetica-12-bold
 
 ! --- FLWM ---
-! Window manager frames and titlebar color tones
+! Window manager frames, borders, and titlebar color tones
 flwm*background:        #3b4252
 flwm*foreground:        #d8dee9
-flwm*activeBackground:  #434c5e
+flwm*activeBackground:  #5e81ac
 flwm*activeForeground:  #eceff4

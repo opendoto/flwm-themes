@@ -1,5 +1,5 @@
 ! -----------------------------------------------------------------------------
-!                               Gruvbox Light
+!                                  Gruvbox Light
 ! -----------------------------------------------------------------------------
 
 ! --- ATERM CONFIG ---
@@ -20,17 +20,17 @@ Aterm*background:       #fbf1c7
 Aterm*foreground:       #282828
 Aterm*cursorColor:      #af3a03
 
-! Standard ANSI colors (0-7) used for base text highlighting in CLI apps
+! Standard ANSI colors (0-7) mapped strictly to Gruvbox Light palette
 Aterm*color0:           #fbf1c7
-Aterm*color1:           #c14a4a
-Aterm*color2:           #6c782e
-Aterm*color3:           #b57614
-Aterm*color4:           #076678
-Aterm*color5:           #8f3f71
-Aterm*color6:           #427b58
-Aterm*color7:           #3c3836
+Aterm*color1:           #cc241d
+Aterm*color2:           #98971a
+Aterm*color3:           #d79921
+Aterm*color4:           #458588
+Aterm*color5:           #b16286
+Aterm*color6:           #689d6a
+Aterm*color7:           #7c6f64
 
-! Bright ANSI colors (8-15) used for bold or high-intensity terminal outputs
+! Bright ANSI colors (8-15) featuring high-intensity dark accents
 Aterm*color8:           #928374
 Aterm*color9:           #9d0006
 Aterm*color10:          #79740e
@@ -38,7 +38,7 @@ Aterm*color11:          #b57614
 Aterm*color12:          #076678
 Aterm*color13:          #8f3f71
 Aterm*color14:          #427b58
-Aterm*color15:          #1d2021
+Aterm*color15:          #3c3836
 
 ! --- FLTK APPS & SYSTEM UTILITIES ---
 ! Widget look and feel engine and scaling settings
@@ -51,23 +51,35 @@ Xft.dpi:                96.0
 *foreground:            #282828
 *labelcolor:            #282828
 
-! FLTK canvas background for text editors, browsers, and input fields
+! FLTK canvas background for text editors, browsers, and input fields (gruvbox bg0)
 *background2:           #fbf1c7
 *bg2:                   #fbf1c7
 
-! Accent color for selections, marked text, and active controls
+! Accent color for selections, marked text, and active controls (gruvbox yellow/orange)
 *selectColor:           #d79921
 *selection_color:       #d79921
 
-! Universal component overrides (prevents white-outs on Apps, Editor, Help, etc.)
-*input*background:      #ebdbb2
+! Universal component overrides (Dual TitleCase declarations for strict FLTK class parser)
+*input*background:      #fbf1c7
 *input*foreground:      #282828
+*Input*background:      #fbf1c7
+*Input*foreground:      #282828
 *output*background:     #ebdbb2
 *output*foreground:     #282828
+*Output*background:     #ebdbb2
+*Output*foreground:     #282828
 *text*background:       #fbf1c7
 *text*foreground:       #282828
+*Text*background:       #fbf1c7
+*Text*foreground:       #282828
 *browser*background:    #fbf1c7
 *browser*foreground:    #282828
+*Browser*background:    #fbf1c7
+*Browser*foreground:    #282828
+*Hold_Browser*background: #fbf1c7
+*Hold_Browser*foreground: #282828
+*Select_Browser*background: #fbf1c7
+*Select_Browser*foreground: #282828
 *help*background:       #fbf1c7
 *help*foreground:       #282828
 *Help_View*background:  #fbf1c7
@@ -76,10 +88,17 @@ Xft.dpi:                96.0
 *file_chooser*foreground: #282828
 *File_Chooser*background: #d5c4a1
 *File_Chooser*foreground: #282828
+*scrollbar*background:  #d5c4a1
+*scrollbar*foreground:  #282828
+*Scrollbar*background:  #d5c4a1
+*Scrollbar*foreground:  #282828
+*Scrollbar*color:       #ebdbb2
+*Button*background:     #ebdbb2
+*Button*foreground:     #282828
 
 ! --- FLWM ---
 ! Window manager frames, borders, and titlebar color tones
 flwm*background:        #d5c4a1
-flwm*foreground:        #282828
+flwm*foreground:        #3c3836
 flwm*activeBackground:  #d79921
-flwm*activeForeground:  #282828
+flwm*activeForeground:  #1d2021

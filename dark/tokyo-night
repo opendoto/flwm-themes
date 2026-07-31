@@ -1,7 +1,6 @@
 ! -----------------------------------------------------------------------------
-!                                 Tokyo Night
+!                            Tokyo Night
 ! -----------------------------------------------------------------------------
-! Note: Run 'filetool.sh -b' after editing to persist changes across reboots.
 
 ! --- ATERM CONFIG ---
 ! Controls the terminal scrollbar visibility (set to true to show)
@@ -22,7 +21,7 @@ Aterm*foreground:       #c0caf5
 Aterm*cursorColor:      #c0caf5
 Aterm*pointerColor:     #c0caf5
 
-! Standard ANSI colors (0-7) used for base text highlighting in CLI apps
+! Standard ANSI colors (0-7) mapped strictly to Tokyo Night palette
 Aterm*color0:           #15161e
 Aterm*color1:           #f7768e
 Aterm*color2:           #9ece6a
@@ -32,14 +31,14 @@ Aterm*color5:           #bb9af7
 Aterm*color6:           #7dcfff
 Aterm*color7:           #a9b1d6
 
-! Bright ANSI colors (8-15) used for bold or high-intensity terminal outputs
+! Bright ANSI colors (8-15) featuring Tokyo Night Orange, Teal, and Sky accents
 Aterm*color8:           #414868
-Aterm*color9:           #f7768e
-Aterm*color10:          #9ece6a
+Aterm*color9:           #ff9e64
+Aterm*color10:          #73dacb
 Aterm*color11:          #e0af68
-Aterm*color12:          #7aa2f7
+Aterm*color12:          #2ac3de
 Aterm*color13:          #bb9af7
-Aterm*color14:          #7dcfff
+Aterm*color14:          #b4f9f8
 Aterm*color15:          #c0caf5
 
 ! --- FLTK APPS & SYSTEM UTILITIES ---
@@ -61,19 +60,42 @@ Xft.dpi:                96.0
 *selectColor:           #7aa2f7
 *selection_color:       #7aa2f7
 
-! Universal component overrides (prevents white-outs on Apps, Editor, Help, etc.)
+! Universal component overrides (Dual TitleCase declarations for strict FLTK class parser)
 *input*background:      #1a1b26
 *input*foreground:      #c0caf5
+*Input*background:      #1a1b26
+*Input*foreground:      #c0caf5
 *output*background:     #1a1b26
 *output*foreground:     #c0caf5
+*Output*background:     #1a1b26
+*Output*foreground:     #c0caf5
 *text*background:       #1a1b26
 *text*foreground:       #c0caf5
+*Text*background:       #1a1b26
+*Text*foreground:       #c0caf5
 *browser*background:    #1a1b26
 *browser*foreground:    #c0caf5
+*Browser*background:    #1a1b26
+*Browser*foreground:    #c0caf5
+*Hold_Browser*background: #1a1b26
+*Hold_Browser*foreground: #c0caf5
+*Select_Browser*background: #1a1b26
+*Select_Browser*foreground: #c0caf5
 *help*background:       #1a1b26
 *help*foreground:       #c0caf5
 *Help_View*background:  #1a1b26
 *Help_View*foreground:  #c0caf5
+*file_chooser*background: #24283b
+*file_chooser*foreground: #c0caf5
+*File_Chooser*background: #24283b
+*File_Chooser*foreground: #c0caf5
+*scrollbar*background:  #24283b
+*scrollbar*foreground:  #c0caf5
+*Scrollbar*background:  #24283b
+*Scrollbar*foreground:  #c0caf5
+*Scrollbar*color:       #414868
+*Button*background:     #414868
+*Button*foreground:     #c0caf5
 
 ! --- FLWM ---
 ! Window manager frames, borders, and titlebar color tones

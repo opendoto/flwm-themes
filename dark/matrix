@@ -59,15 +59,27 @@ Xft.dpi:                96.0
 *selectColor:           #0d5245
 *selection_color:       #0d5245
 
-! Universal component overrides (prevents white-outs on Apps, Editor, Help, etc.)
+! Universal component overrides (Dual TitleCase declarations for strict FLTK class parser)
 *input*background:      #080c0a
 *input*foreground:      #a6fb05
+*Input*background:      #080c0a
+*Input*foreground:      #a6fb05
 *output*background:     #080c0a
 *output*foreground:     #a6fb05
+*Output*background:     #080c0a
+*Output*foreground:     #a6fb05
 *text*background:       #080c0a
 *text*foreground:       #a6fb05
+*Text*background:       #080c0a
+*Text*foreground:       #a6fb05
 *browser*background:    #080c0a
 *browser*foreground:    #a6fb05
+*Browser*background:    #080c0a
+*Browser*foreground:    #a6fb05
+*Hold_Browser*background: #080c0a
+*Hold_Browser*foreground: #a6fb05
+*Select_Browser*background: #080c0a
+*Select_Browser*foreground: #a6fb05
 *help*background:       #080c0a
 *help*foreground:       #a6fb05
 *Help_View*background:  #080c0a
@@ -76,6 +88,13 @@ Xft.dpi:                96.0
 *file_chooser*foreground: #a6fb05
 *File_Chooser*background: #19232c
 *File_Chooser*foreground: #a6fb05
+*scrollbar*background:  #19232c
+*scrollbar*foreground:  #a6fb05
+*Scrollbar*background:  #19232c
+*Scrollbar*foreground:  #a6fb05
+*Scrollbar*color:       #19232c
+*Button*background:     #19232c
+*Button*foreground:     #a6fb05
 
 ! --- FLWM ---
 ! Window manager frames, borders, and titlebar color tones

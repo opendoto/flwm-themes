@@ -1,5 +1,5 @@
 ! -----------------------------------------------------------------------------
-!                       Unix CDE (Magenta Frame)
+!                            Unix CDE (Magenta Frame)
 ! -----------------------------------------------------------------------------
 
 ! --- ATERM CONFIG ---
@@ -16,28 +16,28 @@ Aterm*font:             fixed
 Aterm*saveLines:        2000
 
 ! Main text and background colors for the terminal window canvas
-Aterm*background:       #dedfe2
-Aterm*foreground:       #2c2c2e
-Aterm*cursorColor:      #b14d7b
+Aterm*background:       #f5f0f3
+Aterm*foreground:       #1c1018
+Aterm*cursorColor:      #8c3463
 
 ! Standard ANSI colors (0-7) used for base text highlighting in CLI apps
-Aterm*color0:           #2c2c2e
-Aterm*color1:           #b14d7b
-Aterm*color2:           #2fceaf
-Aterm*color3:           #eedb71
-Aterm*color4:           #2c3374
-Aterm*color5:           #7d3452
-Aterm*color6:           #6ca4a4
-Aterm*color7:           #dedfe2
+Aterm*color0:           #1c1018
+Aterm*color1:           #8c3463
+Aterm*color2:           #2b6e54
+Aterm*color3:           #987018
+Aterm*color4:           #366098
+Aterm*color5:           #b84d87
+Aterm*color6:           #3f759b
+Aterm*color7:           #abb4c3
 
 ! Bright ANSI colors (8-15) used for bold or high-intensity terminal outputs
-Aterm*color8:           #6f6f71
-Aterm*color9:           #cd82a3
-Aterm*color10:          #bbd1d0
-Aterm*color11:          #f4f898
-Aterm*color12:          #738ba3
-Aterm*color13:          #d69eb9
-Aterm*color14:          #2c9090
+Aterm*color8:           #60525a
+Aterm*color9:           #c9365e
+Aterm*color10:          #398d6d
+Aterm*color11:          #b88a20
+Aterm*color12:          #3c81c5
+Aterm*color13:          #f7ceeb
+Aterm*color14:          #5b7696
 Aterm*color15:          #ffffff
 
 ! --- FLTK APPS & SYSTEM UTILITIES ---
@@ -47,35 +47,65 @@ fltk*scheme:            plastic
 Xft.dpi:                96.0
 
 ! Global background, text, and label colors across FLTK window surfaces
-*background:            #b14d7b
-*foreground:            #ffffff
-*labelcolor:            #ffffff
+*background:            #8c3463
+*foreground:            #f5f0f3
+*labelcolor:            #f5f0f3
 
 ! FLTK canvas background for text editors, browsers, and input fields
-*background2:           #dedfe2
-*bg2:                   #dedfe2
+*background2:           #22141f
+*bg2:                   #22141f
 
 ! Accent color for selections, marked text, and active controls
-*selectColor:           #7d3452
-*selection_color:       #7d3452
+*selectColor:           #b84d87
+*selection_color:       #b84d87
 
-! Universal component overrides (prevents white-outs on Apps, Editor, Help, etc.)
-*input*background:      #dedfe2
-*input*foreground:      #2c2c2e
-*output*background:     #dedfe2
-*output*foreground:     #2c2c2e
-*text*background:       #dedfe2
-*text*foreground:       #2c2c2e
-*browser*background:    #dedfe2
-*browser*foreground:    #2c2c2e
-*help*background:       #dedfe2
-*help*foreground:       #2c2c2e
-*Help_View*background:  #dedfe2
-*Help_View*foreground:  #2c2c2e
+! Universal component overrides (Dual TitleCase declarations for strict FLTK class parser)
+*input*background:      #22141f
+*input*foreground:      #ffffff
+*Input*background:      #22141f
+*Input*foreground:      #ffffff
+*output*background:     #22141f
+*output*foreground:     #ffffff
+*Output*background:     #22141f
+*Output*foreground:     #ffffff
+*text*background:       #22141f
+*text*foreground:       #ffffff
+*Text*background:       #22141f
+*Text*foreground:       #ffffff
+*Text_Display*background: #22141f
+*Text_Display*foreground: #ffffff
+*Text_Display*labelcolor: #f5f0f3
+*Text_Editor*background:  #22141f
+*Text_Editor*foreground:  #ffffff
+*browser*background:    #22141f
+*browser*foreground:    #ffffff
+*Browser*background:    #22141f
+*Browser*foreground:    #ffffff
+*Hold_Browser*background: #22141f
+*Hold_Browser*foreground: #ffffff
+*Select_Browser*background: #22141f
+*Select_Browser*foreground: #ffffff
+*help*background:       #22141f
+*help*foreground:       #ffffff
+*Help_View*background:  #22141f
+*Help_View*foreground:  #ffffff
+*Help_View*labelcolor:  #f5f0f3
+*file_chooser*background: #8c3463
+*file_chooser*foreground: #ffffff
+*File_Chooser*background: #8c3463
+*File_Chooser*foreground: #ffffff
+*scrollbar*background:  #8c3463
+*scrollbar*foreground:  #ffffff
+*Scrollbar*background:  #8c3463
+*Scrollbar*foreground:  #ffffff
+*Scrollbar*color:       #8c3463
+*Button*background:     #8c3463
+*Button*foreground:     #ffffff
+*Button*labelcolor:     #ffffff
 
 ! --- FLWM ---
 ! Window manager frames, borders, and titlebar color tones
-flwm*background:        #abb4c3
-flwm*foreground:        #2c2c2e
-flwm*activeBackground:  #b14d7b
+flwm*background:        #4a3845
+flwm*foreground:        #d0c4cc
+flwm*activeBackground:  #8c3463
 flwm*activeForeground:  #ffffff

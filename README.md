@@ -20,6 +20,7 @@ The goal is simple: better colors, better contrast, and a cleaner desktop while 
 * 🌲 **Everforest Dark** — Soft green forest colors with a calm, natural look.
 * 🪵 **Gruvbox Dark** — Warm retro colors.
 * 💚 **Matrix** — Green-on-black colors inspired by the classic hacker terminal look.
+* 🌌 **Midnight Blue** — Deep blue colors for a calm nighttime desktop.
 * ⚫ **Monochrome** — Black, white, and gray for a clean minimalist desktop.
 * ❄️ **Nord Dark** — Cool blue and gray tones.
 * 🌹 **Rosé Pine Moon** — Soft dark colors with warm accents.
@@ -29,8 +30,9 @@ The goal is simple: better colors, better contrast, and a cleaner desktop while 
 
 * 🖥️ **CDE** — Classic UNIX look.
 * 🌸 **Cherry Blossom Light** — Soft pink and cream colors.
-* 🌿 **Everforest Light** — Soft natural colors with warm green accents.
+* 🌲 **Everforest Light** — Soft natural colors with warm green accents.
 * 🌾 **Gruvbox Light** — Warm paper-like colors.
+* 🌄 **Hachimi Landscape** — Warm countryside colors inspired by open fields and clear skies.
 * 🍦 **Maycream** — Soft cream colors for reading.
 * 🟠 **Old Ubuntu** — Inspired by the old Ubuntu Human theme.
 * 🌅 **Rosé Pine Dawn** — Light pastel colors.
@@ -103,6 +105,7 @@ flwm-themes/
 │   ├── everforest-dark
 │   ├── gruvbox-dark
 │   ├── matrix
+│   ├── midnight-blue
 │   ├── monochrome
 │   ├── nord-dark
 │   ├── rose-pine-moon
@@ -112,6 +115,7 @@ flwm-themes/
     ├── cherry-blossom-light
     ├── everforest-light
     ├── gruvbox-light
+    ├── hachimi-landscape
     ├── maycream
     ├── oldubuntu
     ├── rose-pine-dawn

@@ -1,6 +1,7 @@
 ! -----------------------------------------------------------------------------
-!                               Monochrome
+!                                   Monochrome
 ! -----------------------------------------------------------------------------
+! Note: Run 'filetool.sh -b' after editing to persist changes across reboots.
 
 ! --- ATERM CONFIG ---
 ! Controls the terminal scrollbar visibility (set to true to show)
@@ -19,6 +20,7 @@ Aterm*saveLines:        2000
 Aterm*background:       #0c0c0c
 Aterm*foreground:       #ececec
 Aterm*cursorColor:      #ececec
+Aterm*pointerColor:     #ececec
 
 ! Standard ANSI colors (0-7) used for base text highlighting in CLI apps
 Aterm*color0:           #1c1c1c
@@ -45,6 +47,9 @@ Aterm*color15:          #ececec
 fltk*scheme:            plastic
 *scheme:                plastic
 Xft.dpi:                96.0
+Xft.antialias:          1
+Xft.hinting:            1
+*font:                  helvetica-12
 
 ! Global background, text, and label colors across FLTK window surfaces
 *background:            #3c3c3c
@@ -62,20 +67,59 @@ Xft.dpi:                96.0
 ! Universal component overrides (prevents white-outs on Apps, Editor, Help, etc.)
 *input*background:      #0c0c0c
 *input*foreground:      #ececec
+*input*font:            courier-12
+*Input*background:      #0c0c0c
+*Input*foreground:      #ececec
+*Input*font:            courier-12
 *output*background:     #0c0c0c
 *output*foreground:     #ececec
+*output*font:           courier-12
+*Output*background:     #0c0c0c
+*Output*foreground:     #ececec
+*Output*font:           courier-12
 *text*background:       #0c0c0c
 *text*foreground:       #ececec
+*text*font:             courier-12
+*Text*background:       #0c0c0c
+*Text*foreground:       #ececec
+*Text*font:             courier-12
+*Text_Display*background: #0c0c0c
+*Text_Display*foreground: #ececec
+*Text_Display*labelcolor: #ffffff
+*Text_Display*font:     courier-12
+*Text_Editor*background:  #0c0c0c
+*Text_Editor*foreground:  #ececec
+*Text_Editor*font:      courier-12
 *browser*background:    #0c0c0c
 *browser*foreground:    #ececec
+*browser*font:          helvetica-12
+*Browser*background:    #0c0c0c
+*Browser*foreground:    #ececec
+*Browser*font:          helvetica-12
+*Hold_Browser*background: #0c0c0c
+*Hold_Browser*foreground: #ececec
+*Hold_Browser*font:     helvetica-12
+*Select_Browser*background: #0c0c0c
+*Select_Browser*foreground: #ececec
+*Select_Browser*font:   helvetica-12
 *help*background:       #0c0c0c
 *help*foreground:       #ececec
 *Help_View*background:  #0c0c0c
 *Help_View*foreground:  #ececec
+*Help_View*labelcolor:  #ffffff
 *file_chooser*background: #3c3c3c
 *file_chooser*foreground: #ececec
 *File_Chooser*background: #3c3c3c
 *File_Chooser*foreground: #ececec
+*scrollbar*background:  #3c3c3c
+*scrollbar*foreground:  #ececec
+*Scrollbar*background:  #3c3c3c
+*Scrollbar*foreground:  #ececec
+*Scrollbar*color:       #4c4c4c
+*Button*background:     #4c4c4c
+*Button*foreground:     #ffffff
+*Button*labelcolor:     #ffffff
+*Button*font:           helvetica-12-bold
 
 ! --- FLWM ---
 ! Window manager frames, borders, and titlebar color tones
