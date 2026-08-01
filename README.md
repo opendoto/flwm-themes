@@ -14,6 +14,7 @@ The goal is simple: better colors, better contrast, and a cleaner desktop while 
 
 ### Dark
 
+* 🟠 **Amber CRT** — Orange-on-black colors inspired by classic amber CRT monitors.
 * 🌿 **Catppuccin Mocha** — Soft pastel colors.
 * 🌸 **Cherry Blossom Dark** — Soft pink accents on a dark background.
 * 🦇 **Dracula** — Dark purple with bright accents.
@@ -23,7 +24,9 @@ The goal is simple: better colors, better contrast, and a cleaner desktop while 
 * 🌌 **Midnight Blue** — Deep blue colors for a calm nighttime desktop.
 * ⚫ **Monochrome** — Black, white, and gray for a clean minimalist desktop.
 * ❄️ **Nord Dark** — Cool blue and gray tones.
-* 🌹 **Rosé Pine Moon** — Soft dark colors with warm accents.
+* 🌹 **Red Rose Noir** — Deep black and crimson colors with a dark elegant look.
+* 🌺 **Rosé Pine Moon** — Soft dark colors with warm accents.
+* 🌈 **Synthwave** — Neon purple and pink colors inspired by the 80s retro aesthetic.
 * 🌃 **Tokyo Night** — Bright blues inspired by city lights.
 
 ### Light
@@ -33,6 +36,7 @@ The goal is simple: better colors, better contrast, and a cleaner desktop while 
 * 🌲 **Everforest Light** — Soft natural colors with warm green accents.
 * 🌾 **Gruvbox Light** — Warm paper-like colors.
 * 🌄 **Hachimi Landscape** — Warm countryside colors inspired by open fields and clear skies.
+* 💜 **Kimi Light** — Soft lavender and light purple colors with a clean, bright look.
 * 🍦 **Maycream** — Soft cream colors for reading.
 * 🟠 **Old Ubuntu** — Inspired by the old Ubuntu Human theme.
 * 🌅 **Rosé Pine Dawn** — Light pastel colors.
@@ -99,6 +103,7 @@ The new theme will be used by:
 ```text
 flwm-themes/
 ├── dark/
+│   ├── amber-crt
 │   ├── catppuccin-mocha
 │   ├── cherry-blossom-dark
 │   ├── dracula
@@ -108,7 +113,9 @@ flwm-themes/
 │   ├── midnight-blue
 │   ├── monochrome
 │   ├── nord-dark
+│   ├── red-rose-noir
 │   ├── rose-pine-moon
+│   ├── synthwave
 │   └── tokyo-night
 └── light/
     ├── cde
@@ -116,6 +123,7 @@ flwm-themes/
     ├── everforest-light
     ├── gruvbox-light
     ├── hachimi-landscape
+    ├── kimi-light
     ├── maycream
     ├── oldubuntu
     ├── rose-pine-dawn
