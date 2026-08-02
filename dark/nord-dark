@@ -1,5 +1,5 @@
 ! -----------------------------------------------------------------------------
-!                                   Nord Dark
+!                               Nord Dark
 ! -----------------------------------------------------------------------------
 ! Note: Run 'filetool.sh -b' after editing to persist changes across reboots.
 
@@ -53,7 +53,7 @@ Xft.hinting:            1
 
 ! Global background, text, and label colors across FLTK window surfaces
 *background:            #3b4252
-*foreground:            #e5e9f0
+*foreground:            #eceff4
 *labelcolor:            #e5e9f0
 
 ! FLTK canvas background for text editors, browsers, and input fields
@@ -68,58 +68,141 @@ Xft.hinting:            1
 *input*background:      #2e3440
 *input*foreground:      #eceff4
 *input*font:            courier-12
+*input*color:           #2e3440
 *Input*background:      #2e3440
 *Input*foreground:      #eceff4
 *Input*font:            courier-12
+*Input*color:           #2e3440
+*Fl_Input*background:   #2e3440
+*Fl_Input*color:        #2e3440
+*Fl_Input*foreground:   #eceff4
+
 *output*background:     #2e3440
 *output*foreground:     #eceff4
 *output*font:           courier-12
+*output*color:          #2e3440
 *Output*background:     #2e3440
 *Output*foreground:     #eceff4
 *Output*font:           courier-12
+*Output*color:          #2e3440
+*Fl_Output*background:  #2e3440
+*Fl_Output*color:       #2e3440
+*Fl_Output*foreground:  #eceff4
+
 *text*background:       #2e3440
 *text*foreground:       #eceff4
 *text*font:             courier-12
+*text*color:            #2e3440
 *Text*background:       #2e3440
 *Text*foreground:       #eceff4
 *Text*font:             courier-12
+*Text*color:            #2e3440
+
 *Text_Display*background: #2e3440
 *Text_Display*foreground: #eceff4
 *Text_Display*labelcolor: #e5e9f0
 *Text_Display*font:     courier-12
+*Text_Display*color:    #2e3440
+
 *Text_Editor*background:  #2e3440
 *Text_Editor*foreground:  #eceff4
 *Text_Editor*font:      courier-12
+*Text_Editor*color:     #2e3440
+
 *browser*background:    #2e3440
 *browser*foreground:    #eceff4
 *browser*font:          helvetica-12
+*browser*color:         #2e3440
 *Browser*background:    #2e3440
 *Browser*foreground:    #eceff4
 *Browser*font:          helvetica-12
+*Browser*color:         #2e3440
+*Fl_Browser*background: #2e3440
+*Fl_Browser*foreground: #eceff4
+*Fl_Browser*color:      #2e3440
+
 *Hold_Browser*background: #2e3440
 *Hold_Browser*foreground: #eceff4
 *Hold_Browser*font:     helvetica-12
+*Hold_Browser*color:    #2e3440
+*Fl_Hold_Browser*background: #2e3440
+*Fl_Hold_Browser*foreground: #eceff4
+*Fl_Hold_Browser*color: #2e3440
+
 *Select_Browser*background: #2e3440
 *Select_Browser*foreground: #eceff4
 *Select_Browser*font:   helvetica-12
-*help*background:       #2e3440
-*help*foreground:       #eceff4
-*Help_View*background:  #2e3440
-*Help_View*foreground:  #eceff4
-*Help_View*labelcolor:  #e5e9f0
-*file_chooser*background: #3b4252
-*file_chooser*foreground: #e5e9f0
-*File_Chooser*background: #3b4252
-*File_Chooser*foreground: #e5e9f0
+*Select_Browser*color:  #2e3440
+*Fl_Select_Browser*background: #2e3440
+*Fl_Select_Browser*foreground: #eceff4
+*Fl_Select_Browser*color: #2e3440
+
+*extbrw*background:     #2e3440
+*extbrw*foreground:     #eceff4
+*extbrw*color:          #2e3440
+
+*menu*background:       #3b4252
+*menu*foreground:       #eceff4
+*Menu*background:       #3b4252
+*Menu*foreground:       #eceff4
+*menubar*background:    #3b4252
+*menubar*foreground:    #eceff4
+*Menubar*background:    #3b4252
+*Menubar*foreground:    #eceff4
+*Menu_Bar*background:   #3b4252
+*Menu_Bar*foreground:   #eceff4
+*Fl_Menu_Bar*background:#3b4252
+*Fl_Menu_Bar*foreground:#eceff4
+
+*choice*background:     #3b4252
+*choice*foreground:     #eceff4
+*Choice*background:     #3b4252
+*Choice*foreground:     #eceff4
+*Fl_Choice*background:  #3b4252
+*Fl_Choice*foreground:  #eceff4
+
 *scrollbar*background:  #3b4252
 *scrollbar*foreground:  #e5e9f0
 *Scrollbar*background:  #3b4252
 *Scrollbar*foreground:  #e5e9f0
 *Scrollbar*color:       #434c5e
+*Fl_Scrollbar*background:#3b4252
+*Fl_Scrollbar*color:    #434c5e
+
+*slider*background:     #3b4252
+*slider*foreground:     #e5e9f0
+*Slider*background:     #3b4252
+*Slider*foreground:     #e5e9f0
+*Slider*color:          #434c5e
+*Value_Slider*background: #3b4252
+*Value_Slider*color:    #434c5e
+*Fl_Slider*background:  #3b4252
+*Fl_Slider*color:       #434c5e
+
+*valuator*background:   #3b4252
+*Valuator*background:   #3b4252
+
 *Button*background:     #434c5e
 *Button*foreground:     #eceff4
 *Button*labelcolor:     #eceff4
 *Button*font:           helvetica-12-bold
+*Fl_Button*background:  #434c5e
+*Fl_Button*foreground:  #eceff4
+*Fl_Button*labelcolor:  #eceff4
+
+*help*background:       #2e3440
+*help*foreground:       #eceff4
+*Help_View*background: #2e3440
+*Help_View*foreground: #eceff4
+*Help_View*labelcolor: #e5e9f0
+
+*file_chooser*background: #3b4252
+*file_chooser*foreground: #e5e9f0
+*File_Chooser*background: #3b4252
+*File_Chooser*foreground: #e5e9f0
+
+*Tabs*background:       #3b4252
+*Tabs*foreground:       #eceff4
 
 ! --- FLWM ---
 ! Window manager frames, borders, and titlebar color tones

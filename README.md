@@ -28,6 +28,7 @@ The goal is simple: better colors, better contrast, and a cleaner desktop while 
 * 🌺 **Rosé Pine Moon** — Soft dark colors with warm accents.
 * 🌈 **Synthwave** — Neon purple and pink colors inspired by the 80s retro aesthetic.
 * 🌃 **Tokyo Night** — Bright blues inspired by city lights.
+* 🐧 **Yellow Tux Dark** — Dark theme with warm yellow accents inspired by the Linux penguin.
 
 ### Light
 
@@ -41,6 +42,7 @@ The goal is simple: better colors, better contrast, and a cleaner desktop while 
 * 🟠 **Old Ubuntu** — Inspired by the old Ubuntu Human theme.
 * 🌅 **Rosé Pine Dawn** — Light pastel colors.
 * 🌤️ **Skyline** — Bright blue sky colors with a clean light look.
+* 🐧 **Yellow Tux Light** — Bright theme with warm yellow accents inspired by the Linux penguin.
 
 ## Features
 
@@ -116,7 +118,8 @@ flwm-themes/
 │   ├── red-rose-noir
 │   ├── rose-pine-moon
 │   ├── synthwave
-│   └── tokyo-night
+│   ├── tokyo-night
+│   └── yellow-tux-dark
 └── light/
     ├── cde
     ├── cherry-blossom-light
@@ -127,7 +130,8 @@ flwm-themes/
     ├── maycream
     ├── oldubuntu
     ├── rose-pine-dawn
-    └── skyline
+    ├── skyline
+    └── yellow-tux-light
 ```
 
 ## Keep in Mind

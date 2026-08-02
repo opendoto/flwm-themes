@@ -1,0 +1,129 @@
+! -----------------------------------------------------------------------------
+!                             Yellow Tux Dark
+! -----------------------------------------------------------------------------
+! Note: Run 'filetool.sh -b' after editing to persist changes across reboots.
+
+! --- ATERM CONFIG ---
+! Controls the terminal scrollbar visibility (set to true to show)
+Aterm*scrollBar:        false
+
+! Transparency settings (set 'transparent' to true to enable window opacity)
+Aterm*transparent:      false
+Aterm*shading:          80
+
+! Basic terminal window settings like default title, font style, and history buffer
+Aterm*title:            Terminal
+Aterm*font:             fixed
+Aterm*saveLines:        2000
+
+! Main text and background colors for the terminal window canvas
+Aterm*background:       #181818
+Aterm*foreground:       #fff5d6
+Aterm*cursorColor:      #ffd700
+Aterm*pointerColor:     #ffd700
+
+! Standard ANSI colors (0-7) used for base text highlighting in CLI apps
+Aterm*color0:           #242424
+Aterm*color1:           #d94d00
+Aterm*color2:           #85a300
+Aterm*color3:           #f5c400
+Aterm*color4:           #caa000
+Aterm*color5:           #eab500
+Aterm*color6:           #ffdf4d
+Aterm*color7:           #9e9b90
+
+! Bright ANSI colors (8-15) used for bold or high-intensity terminal outputs
+Aterm*color8:           #403d35
+Aterm*color9:           #ff5500
+Aterm*color10:          #aacc00
+Aterm*color11:          #ffd700
+Aterm*color12:          #ffe033
+Aterm*color13:          #f0c000
+Aterm*color14:          #ffea80
+Aterm*color15:          #fff5d6
+
+! --- FLTK APPS & SYSTEM UTILITIES ---
+! Widget look and feel engine and scaling settings
+fltk*scheme:            plastic
+*scheme:                plastic
+Xft.dpi:                96.0
+Xft.antialias:          1
+Xft.hinting:            1
+*font:                  helvetica-12
+
+! Global background, text, and label colors across FLTK window surfaces
+*background:            #202020
+*foreground:            #ffe57f
+*labelcolor:            #ffd700
+
+! FLTK canvas background for text editors, browsers, and input fields
+*background2:           #181818
+*bg2:                   #181818
+
+! Accent color for selections, marked text, and active controls
+*selectColor:           #ffc400
+*selection_color:       #ffc400
+
+! Universal component overrides (prevents white-outs on Apps, Editor, Help, etc.)
+*input*background:      #181818
+*input*foreground:      #ffe57f
+*input*font:            courier-12
+*Input*background:      #181818
+*Input*foreground:      #ffe57f
+*Input*font:            courier-12
+*output*background:     #181818
+*output*foreground:     #ffe57f
+*output*font:           courier-12
+*Output*background:     #181818
+*Output*foreground:     #ffe57f
+*Output*font:           courier-12
+*text*background:       #181818
+*text*foreground:       #ffe57f
+*text*font:             courier-12
+*Text*background:       #181818
+*Text*foreground:       #ffe57f
+*Text*font:             courier-12
+*Text_Display*background: #181818
+*Text_Display*foreground: #ffe57f
+*Text_Display*labelcolor: #ffd700
+*Text_Display*font:     courier-12
+*Text_Editor*background:  #181818
+*Text_Editor*foreground:  #ffe57f
+*Text_Editor*font:      courier-12
+*browser*background:    #181818
+*browser*foreground:    #ffe57f
+*browser*font:          helvetica-12
+*Browser*background:    #181818
+*Browser*foreground:    #ffe57f
+*Browser*font:          helvetica-12
+*Hold_Browser*background: #181818
+*Hold_Browser*foreground: #ffe57f
+*Hold_Browser*font:     helvetica-12
+*Select_Browser*background: #181818
+*Select_Browser*foreground: #ffe57f
+*Select_Browser*font:   helvetica-12
+*help*background:       #181818
+*help*foreground:       #ffe57f
+*Help_View*background:  #181818
+*Help_View*foreground:  #ffe57f
+*Help_View*labelcolor:  #ffd700
+*file_chooser*background: #202020
+*file_chooser*foreground: #ffe57f
+*File_Chooser*background: #202020
+*File_Chooser*foreground: #ffe57f
+*scrollbar*background:  #202020
+*scrollbar*foreground:  #ffe57f
+*Scrollbar*background:  #202020
+*Scrollbar*foreground:  #ffe57f
+*Scrollbar*color:       #e6b800
+*Button*background:     #e6b800
+*Button*foreground:     #0f0f0f
+*Button*labelcolor:     #0f0f0f
+*Button*font:           helvetica-12-bold
+
+! --- FLWM ---
+! Window manager frames, borders, and titlebar color tones
+flwm*background:        #202020
+flwm*foreground:        #ffd700
+flwm*activeBackground:  #ffd700
+flwm*activeForeground:  #0f0f0f
